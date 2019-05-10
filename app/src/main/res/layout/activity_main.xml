@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context=".CreateAccountActivity">
+    <EditText
+            android:id="@+id/ed_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First name"
+    />
+    <EditText
+            android:id="@+id/ed_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+    />
+
+    <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email "
+    />
+    <EditText
+            android:id="@+id/ed_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+    />
+    <Button
+            android:id="@+id/btn_create"
+            android:text="Crete Account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/viewCustom"/>
+    <Button
+            android:id="@+id/btn_sign_in"
+            android:text="Sign In"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/viewCustom"/>
+    <Button
+            android:id="@+id/btn_sign_in_with_ph_no"
+            android:text="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/viewCustom"/>
+
+</LinearLayout>
